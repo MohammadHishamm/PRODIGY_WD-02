@@ -79,7 +79,7 @@ button:hover {
 #lap-time {
     font-size: 1.5em;
     margin-top: 10px;
-    color: #27AE60; /* Green for lap time */
+    color: #27AE60; 
 }
 
 #lap-list li {
@@ -90,11 +90,11 @@ button:hover {
 }
 
 #lap-list li:nth-child(odd) {
-    background-color: #3498DB; /* Blue for odd lap entries */
+    background-color: #3498DB; 
 }
 
 #lap-list li:nth-child(even) {
-    background-color: #E74C3C; /* Red for even lap entries */
+    background-color: #E74C3C;
 }
 
 .color-picker-container {
