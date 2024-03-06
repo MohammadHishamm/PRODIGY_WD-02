@@ -9,7 +9,7 @@ function startStopwatch() {
     if (!isRunning) {
         startTime = performance.now();
         lastUpdateTime = startTime;
-        stopwatchInterval = setInterval(updateStopwatch, 1); // Update every 1 millisecond
+        stopwatchInterval = setInterval(updateStopwatch, 1); 
         isRunning = true;
     }
 }
@@ -31,7 +31,7 @@ function resetStopwatch() {
     updateStopwatch();
     updateLapList();
     updateLapCounter();
-    updateLapTime(0); // Reset lap time
+    updateLapTime(0); 
 }
 
 function recordLap() {
@@ -67,7 +67,7 @@ function updateLapList() {
         listItem.textContent = `Lap ${index + 1}: ${formatLapTime(lapTime)}`;
         lapList.appendChild(listItem);
 
-        // Change the background color of the lap entry based on index
+    
         listItem.style.backgroundColor = index % 2 === 0 ? '#3498DB' : '#E74C3C';
     });
 }
